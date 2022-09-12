@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+form.app__searchForm {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 2rem;
+  margin-bottom: 2rem;
+  max-width: 20rem;
+}
+.foodCard-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
